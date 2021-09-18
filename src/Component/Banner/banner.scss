@@ -1,0 +1,55 @@
+.big__ban__container{
+
+    .ban__container{
+        background-image: url("https://cdn.eftm.com/wp-content/uploads/2018/01/AU-en-20171225-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        object-fit: contain;
+        color: white;
+        
+        &__contents{
+            margin-left: 30px;
+            padding-top: 140px;
+            height: 190px;
+
+            .banner__title{
+                font-size: 50px;
+                font-weight: 800;
+                padding-bottom: 15px;
+            }
+
+            }
+
+            &__button{
+                
+                .banner__btn{
+                    cursor: pointer;
+                    color: white;
+                }
+
+            .banner__description{
+                width: 45rem;
+                line-height: 1.3;
+                padding-top: 1rem;
+                font-size: 0.8rem;
+                max-width: 360px;
+                height: 80px;
+            }
+
+            .banner--fadeBottom{
+                height: 7.4rem;
+                background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+
+            }
+
+
+        }
+
+        
+
+
+
+    }
+}
+
